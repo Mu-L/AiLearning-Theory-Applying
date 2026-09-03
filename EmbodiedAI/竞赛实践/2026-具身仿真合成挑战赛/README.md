@@ -87,11 +87,4 @@ export ACCEPT_HUNYUAN_LICENSE=yes
 bash scripts/run_aliyun.sh
 ```
 
-路径 B 的输出是独立重建结果，不承诺与路径 A 字节一致或获得相同线上分数。
-
-## 发布前检查
-
-1. 确认竞赛规则允许公开冻结候选和中间产物。
-2. 确认第三方模型、代码与素材许可证允许当前发布方式。
-3. 在 GitHub Desktop 中只提交未忽略的源码、文档和校验文件；不要提交 `release_assets/*.zip`、官方 ZIP、模型缓存或 GPU 输出。
-4. 官方核验通过后，先推送源码，再在 GitHub Release 页面上传本地 `release_assets/public_asset_baseline_release.zip`。
+路径 B 的输出是独立重建结果，可能因为精度等原因与路径 A 线上分数不一致。
