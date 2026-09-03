@@ -1,0 +1,2 @@
+# Release 二进制文件只在本地暂存，官方核验通过后手动上传到 GitHub Release。
+*.zip
